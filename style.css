@@ -1,0 +1,233 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    text-align: center;
+    
+}
+
+.logo{
+
+    width: 229px;
+    height: 68px;
+    margin-top: 42px;
+    margin-bottom: 73px;
+
+}
+
+h1{
+
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    color: #fff;
+
+}
+
+.container{
+
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 61px;
+    margin-bottom: 136px;
+
+}
+
+.perfil{
+
+    max-width: 160px;
+    max-height: 194px;
+    flex-grow: 1
+
+}
+
+.aline{
+
+    max-height: 160px;
+    max-width: 160px;
+    overflow: hidden;
+
+}
+
+.pedrinho{
+
+    max-height: 160px;
+    max-width: 160px;
+    overflow: hidden;
+
+}
+
+.julia{
+
+    max-height: 160px;
+    max-width: 160px;
+    overflow: hidden;
+
+}
+
+#girl{
+
+    width: 160px;
+    height: 160px;
+    border: 1,5px solid;
+    border-radius: 8px;
+    
+}
+
+#panda{
+
+    width: 160px;
+    height: 160px;
+    border: 1,5px solid;
+    border-radius: 8px;
+    
+}
+
+#robo{
+
+    width: 160px;
+    height: 160px;
+    border: 1,5px solid;
+    border-radius: 8px;
+    
+}
+
+.perfil-circle-plus{
+
+    width: 160px;
+    height: 161px;
+    border: 1,5px solid;
+    border-radius: 8px;
+    background-color: #1E1E20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+p{
+
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #9C9C9C;
+    margin: 16px 0px;
+
+}
+
+
+.config{
+
+    border: 1.5px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 206px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 88px;
+
+}
+
+#plus{
+
+    opacity: 0.4;
+
+}
+
+#gerenciar{
+
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.config:hover{
+
+    background-color: #fff;
+    
+
+}
+
+#gerenciar:hover{
+
+    color: #000;
+
+}
+
+#plus:hover{
+
+    opacity: 1;
+    
+
+}
+
+.perfil-circle-plus:hover{
+
+    border: 1.5px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+}
+
+#girl:hover{
+
+    transform: scale(1.3);
+
+}
+
+#panda:hover{
+
+    transform: scale(1.3);
+
+}
+
+#robo:hover{
+
+    transform: scale(1.3);
+
+}
+
+.aline:hover{
+
+    border: 1.5px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+}
+
+.pedrinho:hover{
+
+    border: 1.5px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+}
+
+.julia:hover{
+
+    border: 1.5px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+}
